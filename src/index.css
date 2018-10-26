@@ -115,6 +115,11 @@ span.resultado {
 .resultado-enter.resultado-enter-active{
   transform: translateY(120%);
 }
+
+.resultado-enter-active{
+  transform: translateY(120%);
+}
+
 .resultado-exit{
   transform: translateY(0);
   transition:.5s;
@@ -153,3 +158,4 @@ span.resultado {
 .resumen h2 {
   margin:0 0 1rem 0;
 }
+
